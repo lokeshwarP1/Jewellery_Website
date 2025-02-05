@@ -32,7 +32,7 @@ CORS(app, resources={
 })
 
 # Hugging Face API details for image captioning
-API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
+API_URL = ""
 headers = {"Authorization": "Bearer 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"}  # Replace with your actual token
 
 # Function to query the Hugging Face API for image captioning
