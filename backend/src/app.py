@@ -33,7 +33,7 @@ CORS(app, resources={
 
 # Hugging Face API details for image captioning
 API_URL = ""
-headers = {"Authorization": "Bearer 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"}  # Replace with your actual token
+headers = {""}  # Replace with your actual token
 
 # Function to query the Hugging Face API for image captioning
 def query_huggingface_api(image_bytes):
